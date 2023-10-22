@@ -8,7 +8,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 build-mode = "both"
-excluded-patches = ""
+excluded-patches = "'Premium heading'"
 included-patches = ""
 version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
@@ -33,4 +33,5 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
+excluded-patches = "'Premium heading'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
