@@ -507,7 +507,7 @@ build_rv() {
 			"${app_name} ${args[rv_brand]}" \
 			"$version" \
 			"${app_name} ${args[rv_brand]} Magisk module" \
-			"https://raw.githubusercontent.com/${GITHUB_REPOSITORY:-}/update/${upj}" \
+			"https://raw.githubusercontent.com/${GITHUB_REPOSITORY:-}/yt-update/${upj}" \
 			"$base_template"
 
 		local module_output="${app_name_l}-${rv_brand_f}-magisk-v${version_f}-${arch_f}.zip"
