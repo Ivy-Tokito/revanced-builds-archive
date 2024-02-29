@@ -2,11 +2,11 @@
 
 # ReVanced Magisk Module
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/revanced_to)
-[![CI](https://github.com/Tokito-Kun/revanced-builds/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/Tokito-Kun/revanced-builds/actions/workflows/ci.yml)
+[![CI](https://github.com/Yukimitsu-Tokito/revanced-builds/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/Yukimitsu-Tokito/revanced-builds/actions/workflows/ci.yml)
 
 Extensive ReVanced builder  
 
-Get the [latest CI release](https://github.com/Tokito-Kun/revanced-builds/releases).
+Get the [latest CI release](https://github.com/Yukimitsu-Tokito/revanced-builds/releases).
 
 Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music from Play Store if you are using magisk modules.
 
@@ -32,7 +32,7 @@ Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is schedu
 [**See the list of patches**](https://j-hc.github.io/rvmm-config-gen/)
 
  * Star the repo :eyes:
- * Use the repo as a [template](https://github.com/new?template_name=revanced-builds-module&template_owner=Tokito-Kun)
+ * Use the repo as a [template](https://github.com/new?template_name=revanced-builds-module&template_owner=Yukimitsu-Tokito)
  * Customize [`config.toml`](./config.toml) using [rvmm-config-gen](https://j-hc.github.io/rvmm-config-gen/)
  * Run the build [workflow](../../actions/workflows/build.yml)
  * Grab your modules and APKs from [releases](../../releases)
@@ -42,12 +42,12 @@ also see here [`CONFIG.md`](./CONFIG.md)
 ## Building Locally
 ### On Termux
 ```console
-bash <(curl -sSf https://raw.githubusercontent.com/Tokito-Kun/revanced-builds/main/build-termux.sh)
+bash <(curl -sSf https://raw.githubusercontent.com/Yukimitsu-Tokito/revanced-builds/main/build-termux.sh)
 ```
 
 ### On Desktop
 ```console
-$ git clone https://github.com/Tokito-Kun/revanced-builds
+$ git clone https://github.com/Yukimitsu-Tokito/revanced-builds
 $ cd revanced-builds
 $ ./build.sh
 ```

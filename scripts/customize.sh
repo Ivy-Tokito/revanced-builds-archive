@@ -113,5 +113,5 @@ for s in "uninstall.sh" "service.sh"; do
 done
 
 ui_print "* Done"
-ui_print "  by Tokito (github.com/Tokito-Kun)"
+ui_print "  by Tokito (github.com/Yukimitsu-Tokito)"
 ui_print " "
